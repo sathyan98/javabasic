@@ -1,5 +1,6 @@
-public abstract class Abs {
+public abstract class Abs extends Override {
     private int income;
+    private String foodname;
 
     public  int getincome()
     {
@@ -9,4 +10,5 @@ public abstract class Abs {
     {
         System.out.println("the animal is dog");
     }
+    public abstract String animalfood(String foodname);
 }
