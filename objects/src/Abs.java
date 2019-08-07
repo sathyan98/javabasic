@@ -1,4 +1,5 @@
-public abstract class Abs extends Override {
+public abstract class Abs extends Override
+{
     private int income;
     private String foodname;
 

@@ -17,8 +17,6 @@ public  class Createobjects extends Abs{
     public  Integer getAge(int age,int weight)
     {
         return (age + weight);
-
-
     }
     public  void emi()
     {
@@ -37,6 +35,8 @@ public  class Createobjects extends Abs{
         return foodname;
     }
 
+
+
     public static void main(String[] args) throws Throwable {
         Createobjects obj = new Createobjects();
         obj.animal();
@@ -46,11 +46,8 @@ public  class Createobjects extends Abs{
         obj.finalize();
         Abs food = new Createobjects();
         System.out.println(food.animalfood("pedigree"));
-        
-
-
-
-
+        Createobjects overload = new Createobjects();
+        System.out.println(overload.getAge());
     }
 
 }
